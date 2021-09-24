@@ -44,3 +44,13 @@ For both of these operations, we will use MySQL as the database program.
 With both tables, we can display them in different ways. With the keyword, year, and frequency, we can display it in a timeline, similar to the Ngram Viewer. With the categories associated with the keyword, we can display it as a sort of bar graph.
 
 
+## Resources/References:
+
+Cornell University Google Scholar Article
+https://www.kaggle.com/Cornell-University/arxiv 
+
+Filtered CS Papers JSON
+https://serioussoftwa-lbh6237.slack.com/files/U027N51FQ58/F02CNDRN12L/filtered_arxiv.json
+
+Keywords
+https://serioussoftwa-lbh6237.slack.com/files/U027N51FQ58/F02BS30488N/keywords-springer-83k.csv

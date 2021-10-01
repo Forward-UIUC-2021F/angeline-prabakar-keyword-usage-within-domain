@@ -133,7 +133,7 @@ def create_table_data(document_list):
 	#return graph object
  ```
 
-By the end, we will have a SQL table that holds the keyword, year, category code, and frequency. With this table, we will create the visual diagrams of popularity of keywords within the CS domain.
+By the end, we will have a SQL table that holds the keyword, year, category code, and frequency. With this table, we will create the visual diagrams of popularity of keywords within the CS domain. We can do this using SQL's group by functions.
 
 # Sources/References
 

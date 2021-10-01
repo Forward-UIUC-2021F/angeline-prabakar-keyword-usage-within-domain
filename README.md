@@ -1,6 +1,6 @@
 # Creating Timeline of Keywords
 
-#Overall Design 
+# Overall Design 
 
 ## Overall Input: 
 Main input is a user-inputted keyword.

@@ -100,6 +100,7 @@ def display_category_usage(keyword):
 
 ### DataSet: Keywords, Arxiv Scholar Papers 
 
+#### Storing into MySQL Database
 
 - storing each document from dataset into Whoosh
 ```
@@ -107,13 +108,6 @@ def store_documents() :
 	#loop through the csv file and gather each document and store it within Whoosh
 	#each document has fields to fill in: gather title, abstract, year created, and category code.
 ```
-
-- simple function that just recreates file of original keywords csv for more readability
-```
-def clean_keywords():
-	#loop through csv file and take out unnecessary information that comes in keywords file.
-	#just creates a new csv file to work with
- ```
 
 - adding data into SQL table for given keyword. uses helper functions
 ```

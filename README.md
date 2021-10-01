@@ -152,6 +152,7 @@ https://serioussoftwa-lbh6237.slack.com/files/U027N51FQ58/F02CNDRN12L/filtered_a
 ### Keywords CSV
 https://serioussoftwa-lbh6237.slack.com/files/U027N51FQ58/F02BS30488N/keywords-springer-83k.csv
 
-
+### Whoosh Library 
+https://github.com/mchaput/whoosh
 
 

@@ -3,7 +3,7 @@
 # Overall Design 
 
 ## Overall Input: 
-Main input is a user-inputted keyword. Must be from CS domain of keywords.
+Main input is a user-inputted keyword.
 
 
 

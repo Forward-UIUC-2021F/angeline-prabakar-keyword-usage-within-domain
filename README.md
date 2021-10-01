@@ -7,11 +7,23 @@ Main input is a user-inputted keyword.
 
 
 
-
-
 ## Overall Output: 
 Program should generate a timeline of the relevancy of the keyword throughout the years. Along with that, the program should display a bar graph of the usage of the keyword within specific categories within CS.
 
+
+## Example
+
+- User Inputted Keyword: Data Structure
+- Output:
+
+![Screenshot](https://github.com/Forward-UIUC-2021F/keyword-usage-within-domain/blob/fbfb0cd4160400a8d12e9ba8945ce718be663fb6/images_readme/Screen%20Shot%202021-08-26%20at%2011.08.00%20PM.png)
+
+![Screenshot](https://github.com/Forward-UIUC-2021F/keyword-usage-within-domain/blob/fbfb0cd4160400a8d12e9ba8945ce718be663fb6/images_readme/Screen%20Shot%202021-09-10%20at%204.25.32%20PM.png)
+
+- User Inputted Keyword: Machine Learning
+- Output:
+
+![Screenshot](https://github.com/Forward-UIUC-2021F/keyword-usage-within-domain/blob/fbfb0cd4160400a8d12e9ba8945ce718be663fb6/images_readme/Screen%20Shot%202021-08-26%20at%2011.51.09%20PM.png)
 
 
 
@@ -82,6 +94,10 @@ def display_category_usage(keyword):
 # Algorithmic Design
 
 ### External Library: Whoosh
+- We can use the fields in Whoosh to store our documents
+
+![Alt Text](https://github.com/Forward-UIUC-2021F/keyword-usage-within-domain/blob/fbfb0cd4160400a8d12e9ba8945ce718be663fb6/images_readme/Screen%20Shot%202021-09-24%20at%2012.26.09%20PM.png)
+
 ### DataSet: Keywords, Arxiv Scholar Papers 
 
 

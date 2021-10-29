@@ -68,21 +68,19 @@ With the table, we can display them in different ways. We can use SQL’s group 
 
 - user can pass in a keyword within CS domain within a given year and find frequency. if no frequency for that year, return closest frequency
 ```
-def get_frequency_of_year(keyword, year):
-	#return frequency of a keyword in a given year
-```
-
-- user can pass in a keyword within CS domain and a category code to find the frequency it appears.
-```
-def get_frequency_of_category(keyword, category_code):
-	#return frequency of a given keyword in a specific category
+def get_keyword_frequeny(keyword, year= None, category_code = None):
+	#return frequency of a given keyword in a given year
+	#returns frequency of a given keyword in a specific category
+	#return frequency of category code in a given year
 ```
 
 - display visual timeline of keywords throughout the years
+- use to compare multiple keywords
 ```
-def display_timeline(keyword):\
-	#return graph
+def display_timeline(keywords):
+	#return graph of single keyword or multiple keywords over the years
 ```
+
 
 - display visual graph of keywords and their relevance within a given category
 ```

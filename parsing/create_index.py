@@ -13,6 +13,10 @@ from tqdm import tqdm
 from time import sleep
 from tqdm import trange
 
+'''
+all functions are internal
+'''
+
 class SearchEngine:
 
     '''
@@ -63,24 +67,20 @@ schema = Schema(
 )
 
 
-'''
+#opens article csv to add into whoosh
 f = open('data/filtered_arxiv.json',  "r")
   
 
 #takes documents and converts to json
-
 data = json.load(f)
 
 
 #create SearchEngine object with new directory indexdir
-
 engine = SearchEngine(schema)
 
 
 #adding the documents into the newly created directory
-
 engine.index_documents(data)
 
 
 print(engine.get_index_size())
-'''

@@ -36,7 +36,7 @@ Main input is a user-inputted keyword.
 
 - User Inputted Keywords: [‘data structure’, ‘machine learning’, ‘data mining’]
 
--Output Timeline Line Graph:
+- Output Timeline Line Graph:
 ![Screenshot](https://github.com/Forward-UIUC-2021F/keyword-usage-within-domain/blob/master/images_readme/multiple_plots.png)
 
 ## Methodology:
@@ -127,6 +127,10 @@ angeline-prabakar-keyword-usage-within-domain/
 	- videos/
 		--demo_video.mp4: how user functions work
 ```
+
+# Demo Video
+
+![Video](https://github.com/Forward-UIUC-2021F/angeline-prabakar-keyword-usage-within-domain/blob/master/videos/demo_video.mp4)
 
 # Functional Design
 **Returning Categories-Frequency of a Keyword**

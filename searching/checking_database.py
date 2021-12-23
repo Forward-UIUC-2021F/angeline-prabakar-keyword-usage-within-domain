@@ -246,16 +246,6 @@ def return_all_keyword_information(keyword):
     if (num_bars > len(category_frequency)):
         num_bars = len(category_frequency)
 
-    print()
-    print("CATEGORY FREQUENCY OF " + keyword.upper())
-    print(category_frequency)
-    print()
-    print("--------------------------------------------------")
-    print()
-    print("YEAR FREQUENCY OF " + keyword.upper())
-    print(year_frequency)
-    print()
-
     x_list = []
     y_list = []
     hover_text = []
@@ -305,6 +295,8 @@ def return_all_keyword_information(keyword):
         yaxis_title = 'FREQUENCY')
 
     fig2.show()
+
+    return category_frequency, year_frequency
 
 
 

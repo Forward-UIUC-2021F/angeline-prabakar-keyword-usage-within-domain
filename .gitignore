@@ -1,3 +1,5 @@
 **/.DS_Store
 cs_domain_directory/*
 data/*
+
+env/

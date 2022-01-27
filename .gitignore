@@ -2,4 +2,7 @@
 cs_domain_directory/*
 data/*
 
+**/__pycache__
+
 env/
+.env

@@ -3,6 +3,11 @@ import plotly.graph_objects as go
 import collections
 import random
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 '''
 object for categories associated with a keyword
 
@@ -28,11 +33,12 @@ db - database for project
 mycursor - object used to search sql
 '''
 def connecting_sql():
+    # print("Yiuup", os.getenv('MYSQL_HOST'), os.getenv('MYSQL_USER'), os.getenv('MYSQL_PASS'), os.getenv('MYSQL_DB'))
     db = mysql.connect(
-    host = "localhost",
-    user = "root",
-    passwd = "password",
-    database = "keyword_frequency"
+        host = os.getenv('MYSQL_HOST'),
+        user = os.getenv('MYSQL_USER'),
+        passwd = os.getenv('MYSQL_PASS'),
+        database = os.getenv('MYSQL_DB')
     )
     mycursor = db.cursor(dictionary=True)
 

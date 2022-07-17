@@ -5,4 +5,10 @@ data/*
 **/__pycache__
 
 env/
+<<<<<<< HEAD
+=======
+
+**/__pycache__
+
+>>>>>>> 1c4df4a (.env file support)
 .env

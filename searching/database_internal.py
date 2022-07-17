@@ -4,9 +4,9 @@ import collections
 import random
 
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
+from dotenv import load_dotenv
+load_dotenv('../.env')
 
 '''
 object for categories associated with a keyword

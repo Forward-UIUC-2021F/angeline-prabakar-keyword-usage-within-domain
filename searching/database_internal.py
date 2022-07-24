@@ -3,10 +3,10 @@ import plotly.graph_objects as go
 import collections
 import random
 
-import os
+# import os
 
-from dotenv import load_dotenv
-load_dotenv('../.env')
+# from dotenv import load_dotenv
+# load_dotenv('../.env')
 
 '''
 object for categories associated with a keyword
@@ -35,10 +35,10 @@ mycursor - object used to search sql
 def connecting_sql():
     # print("Yiuup", os.getenv('MYSQL_HOST'), os.getenv('MYSQL_USER'), os.getenv('MYSQL_PASS'), os.getenv('MYSQL_DB'))
     db = mysql.connect(
-        host = os.getenv('MYSQL_HOST'),
-        user = os.getenv('MYSQL_USER'),
-        passwd = os.getenv('MYSQL_PASS'),
-        database = os.getenv('MYSQL_DB')
+        host = "localhost",
+        user = "aukey2",
+        passwd = "md6j9#m1",
+        database = "keyword_timeline"
     )
     mycursor = db.cursor(dictionary=True)
 

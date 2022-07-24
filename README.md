@@ -99,7 +99,7 @@ To create the first SQL table, I used the dataset here https://www.kaggle.com/Co
 
 To create the second SQL table, I created my own csv file with the necessary information. If included, it is in the data folder. Otherwise, this is the website I used for reference: https://arxiv.org/category_taxonomy
 
-Rename `.env.template` to `.env` and fill out the approporiate fields for the MYSQL connection
+Fill in the correct db connection info at `searching/database_internal.py` in the `connecting_sql()` function. 
 
 Since a majority of this module involves dealing with large sums of data in SQL, it was difficult to make physical test cases for the project. However, testing was involved as I coded the module. To run the current tests, you can just run the 'testing_user_functions.py' in the 'searching' folder. They were made testing bad inputs of the user functions.
 
